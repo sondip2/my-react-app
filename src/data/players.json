@@ -1,9 +1,11 @@
+
+
 [
     {
         "playerId": 1,
         "name": "Player One",
         "country": "Country A",
-        "image": "url_to_image",
+        "image": "",
         "role": "Batsman",
         "battingType": "Right-handed",
         "bowlingType": "Right-arm offbreak",

@@ -4,6 +4,8 @@ import Banner from './components/Banner';
 import Players from './components/Players';
 import Newsletter from './components/newstlater';
 import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 // player data 
 const playerData = [
@@ -86,6 +88,7 @@ function App() {
   };
 
   return (
+    <Router>
     <>
       <Navbar coins={coins} />
       <Banner addCoins={addCoins} />
@@ -130,8 +133,10 @@ function App() {
       </div>
       <Newsletter/>
       <Footer/>
+    
       
     </>
+    </Router>
   );
 }
 
